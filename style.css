@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main-div{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+#playing-board {
+    height: 100%;
+    width: 80%;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#score-board {
+    height: 100%;
+    width: 20%;
+    background-color: yellow;
+}
+
+.cells{
+    height: 2%;
+    width: 2%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    /* display: inline-block; */
+}
+
+#snake{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+#food{
+    height: 100%;
+    width: 100%;
+    background-color: green;
+}
